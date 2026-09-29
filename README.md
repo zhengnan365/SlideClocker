@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/app_icon_512.png" width="96" alt="SlideClocker 图标">
+<img src="docs/app_icon_512.png" width="96" alt="SlideClocker 图标">
 
 # SlideClocker — PPT / PDF 全屏放映计时器
 
@@ -103,30 +103,6 @@ SlideClocker 是一款运行在 Windows 上的**放映计时器**。当你用 Po
 
 全部快捷键可在 **设置 → 全局设置** 中点击输入框后直接按下组合键重新录入。
 
-## 开发与构建
-
-```bash
-# 依赖
-pip install -r requirements.txt
-
-# 运行
-python main.py
-
-# 打包单文件 exe(自动剔除用不到的 Qt 模块以减小体积)
-build.bat
-
-# 打包安装版(需先安装 Inno Setup 6)
-"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" SlideClocker.iss
-```
-
-技术栈:Python 3.10+ / PySide6(Qt6)/ pywin32(全屏检测与全局快捷键)/ psutil。
-
-重新生成发布截图:
-
-```bash
-python tools/make_screenshots.py
-```
-
 ## 常见问题
 
 **Q: 浏览器按 F11 全屏看网页,计时窗误启动了?**
@@ -148,4 +124,4 @@ A: 单实例设计,避免多个托盘/计时窗互相干扰。如需重开,先�
 - 网站:[www.znup.top](https://www.znup.top)
 - 版权:© 2026 郑在探索 制作发布
 
-本项目当前**保留所有权利**。如你希望以开源许可证(如 MIT)发布,请在仓库根目录添加 `LICENSE` 文件并在此处声明。
+本项目当前**保留所有权利**。
