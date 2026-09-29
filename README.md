@@ -2,7 +2,7 @@
 
 <img src="docs/app_icon_512.png" width="96" alt="SlideClocker 图标">
 
-# SlideClocker — PPT / PDF 全屏放映计时器
+# [SlideClocker](https://clocker.znup.top) — PPT / PDF 全屏放映计时器
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?logo=windows&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
